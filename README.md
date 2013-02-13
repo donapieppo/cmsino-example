@@ -1,4 +1,7 @@
 cmsino-example
 ==============
 
-Example of a rails application using cmsino
+Example of a rails application using 
+https://github.com/donapieppo/cmsino 
+
+
