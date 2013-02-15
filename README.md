@@ -7,10 +7,11 @@ https://github.com/donapieppo/cmsino
 
     $ git clone git@github.com:donapieppo/cmsino-example.git
     $ cd cmsino-example
+    $ git clone git@github.com:donapieppo/cmsino.git
     $ bundle install 
     $ bundle exec rake db:schema:load
-    $ bunlde exec rake cmsino:users:testuser
-    $ rails start
+    $ bundle exec rake cmsino:users:testuser
+    $ rails server
 
 Then you can visit the usual http://127.0.0.1:3000
 and login with user 'example@gmail.com' and password 
