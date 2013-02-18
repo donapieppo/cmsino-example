@@ -4,7 +4,7 @@ gem 'rails', '3.2.12'
 gem 'sqlite3'
 
 gem 'cancan'
-gem 'cmsino', :path => '../gems/cmsino'
+gem 'cmsino', :path => './cmsino'
 gem 'devise'
 gem 'twitter-bootstrap-rails'
 

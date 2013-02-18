@@ -1,3 +1,6 @@
+locales:
+  [it, en]
 page:
   home: Home Page
+  helps: Help Page
 

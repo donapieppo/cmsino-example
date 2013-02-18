@@ -10,7 +10,7 @@
     <div class="container">
       <div class="navbar navbar-fixed-top">
         <div class="navbar-inner">
-          <%= link_to 'Cmsino Power', home_path, :class => "brand" %>
+          <%= link_to 'Cmsino Powered', home_path, :class => "brand" %>
           <ul class="nav nav-pills">
             <% if user_signed_in? %>
               <li><%= link_to current_user.email, '#' %></li>
@@ -19,13 +19,16 @@
             <% else %>
               <li><%= link_to "sign in", new_user_session_path %></li>
             <% end %>
-            <li><%= link_to 'it', url_for(:locale => :it) %></li>  
-            <li><%= link_to 'en', url_for(:locale => :en) %></li>  
+            <li><%= link_to image_tag('it.png'), url_for(:locale => :it) %></li>  
+            <li><%= link_to image_tag('en.png'), url_for(:locale => :en) %></li>  
+            <li><%= link_to 'help', helps_path %></li>  
           </ul>
         </div>
       </div>
       <% if notice %>  <p class="notice"><%= notice %></p><% end %>
       <% if alert %>  <p class="alert"><%= alert %></p><% end %>
+
+      <%= editable_content(:hello, :layout) %>  
 
       <%= yield %>
     </div>
