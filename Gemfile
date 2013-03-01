@@ -5,7 +5,11 @@ gem 'sqlite3'
 
 gem 'cancan'
 gem 'cmsino', :path => './cmsino'
+
 gem 'devise'
+gem 'omniauth'
+gem 'omniauth-openid'
+gem 'cancan'
 gem 'twitter-bootstrap-rails'
 
 # Gems used only for assets and not required
