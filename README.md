@@ -10,6 +10,7 @@ https://github.com/donapieppo/cmsino
     $ git clone git@github.com:donapieppo/cmsino.git
     $ bundle install 
     $ bundle exec rake db:schema:load
+    $ rake cmsino:users:testuser # do not forget to change the email in lib/tasks/users.rake
     $ rails server
 
 Then you can visit the usual http://127.0.0.1:3000
