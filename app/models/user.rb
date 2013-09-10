@@ -5,6 +5,4 @@ class User < ActiveRecord::Base
   # :registerable, :recoverable
   devise :omniauthable
 
-  attr_accessible :email, :name, :surname
-
 end

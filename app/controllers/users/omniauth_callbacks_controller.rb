@@ -1,4 +1,6 @@
 class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
+  skip_before_filter :verify_authenticity_token
+
   def google
     logger.info("uid = #{request.env['omniauth.auth'].uid}")
     logger.info("info = #{request.env['omniauth.auth'].info}")
