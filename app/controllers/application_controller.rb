@@ -8,6 +8,11 @@ class ApplicationController < ActionController::Base
   before_filter :set_locale
 
   def set_locale
-    I18n.locale = params[:locale] || I18n.default_locale
+    locale = 'it'
+    if params[:locale] and ['it', 'us'].include?(params[:locale].to_s)
+     locale = params[:locale]
+    end
+
+    I18n.locale = locale || I18n.default_locale
   end
 end
