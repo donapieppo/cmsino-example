@@ -9,7 +9,7 @@ class ApplicationController < ActionController::Base
 
   def set_locale
     locale = 'it'
-    if params[:locale] and ['it', 'us'].include?(params[:locale].to_s)
+    if params[:locale] and Cmsino::Conf.instance.locales.include?(params[:locale].to_s)
      locale = params[:locale]
     end
 
