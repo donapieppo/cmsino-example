@@ -3,6 +3,6 @@ class User < ActiveRecord::Base
   # :token_authenticatable, :confirmable,
   # :lockable, :timeoutable and :omniauthable
   # :registerable, :recoverable
-  devise :omniauthable
+  devise :omniauthable, :omniauth_providers => [:google_oauth2]
 
 end
