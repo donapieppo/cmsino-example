@@ -5,10 +5,11 @@ gem 'sqlite3'
 
 gem 'cmsino', :path => './cmsino'
 
-gem "simple_form"
-gem "bootstrap-sass"
-gem "font-awesome-sass"
-gem 'sass-rails', '~> 5.0'
+gem 'devise'
+gem 'devise-i18n'
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
+
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'therubyracer', platforms: :ruby
