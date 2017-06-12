@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
 
   include CmsinoHelper
 
-  before_filter :set_locale
+  before_action :set_locale
 
   def set_locale
     locale = 'it'
