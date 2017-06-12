@@ -3,6 +3,6 @@ class User < ApplicationRecord
   # :token_authenticatable, :confirmable,
   # :lockable, :timeoutable and :omniauthable
   # :registerable, :recoverable
-  devise :omniauthable, :omniauth_providers => [:google_oauth2]
+  devise :omniauthable, :omniauth_providers => [:developer]
 
 end
