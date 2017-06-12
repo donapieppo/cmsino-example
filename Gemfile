@@ -8,7 +8,7 @@ gem 'cmsino', path: './cmsino'
 gem 'devise'
 gem 'devise-i18n'
 gem 'omniauth'
-gem 'omniauth-google-oauth2'
+gem 'record_tag_helper', '~> 1.0'
 
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
