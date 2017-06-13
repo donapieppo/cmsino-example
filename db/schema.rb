@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170612144412) do
+ActiveRecord::Schema.define(version: 20170613141717) do
 
   create_table "cmsino_contents", force: :cascade do |t|
     t.string "umbrella"
@@ -29,6 +29,7 @@ ActiveRecord::Schema.define(version: 20170612144412) do
   end
 
   create_table "cmsino_media", force: :cascade do |t|
+    t.string "umbrella"
     t.string "name"
     t.text "description"
     t.string "type"
