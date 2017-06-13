@@ -1,0 +1,106 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Ability	app/models/ability.rb	/^class Ability$/;"	c
+AddAttachmentAttachToMedia	cmsino/db/migrate/2015081202_add_attachment_attach_to_media.rb	/^class AddAttachmentAttachToMedia < ActiveRecord::Migration[5.0]$/;"	c
+Application	cmsino/spec/dummy/config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Dummy
+ApplicationCable	app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m
+ApplicationCable	app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationController	cmsino/spec/dummy/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationHelper	cmsino/spec/dummy/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationJob	app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c
+ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c
+ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
+Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	class:ApplicationCable
+Cmsino	cmsino/app/controllers/cmsino/contents_controller.rb	/^class Cmsino::ContentsController < ApplicationController$/;"	c
+Cmsino	cmsino/app/controllers/cmsino/media_controller.rb	/^class Cmsino::MediaController < ApplicationController$/;"	c
+Cmsino	cmsino/app/controllers/cmsino/media_uses_controller.rb	/^class Cmsino::MediaUsesController < ApplicationController$/;"	c
+Cmsino	cmsino/app/controllers/cmsino/pages_controller.rb	/^class Cmsino::PagesController < Cmsino::ContentsController$/;"	c
+Cmsino	cmsino/app/controllers/cmsino/posts_controller.rb	/^class Cmsino::PostsController < Cmsino::ContentsController$/;"	c
+Cmsino	cmsino/app/models/cmsino/content.rb	/^class Cmsino::Content < ActiveRecord::Base$/;"	c
+Cmsino	cmsino/app/models/cmsino/event_content.rb	/^class Cmsino::EventContent < Cmsino::Content$/;"	c
+Cmsino	cmsino/app/models/cmsino/media_use.rb	/^class Cmsino::MediaUse < ActiveRecord::Base$/;"	c
+Cmsino	cmsino/app/models/cmsino/medium.rb	/^class Cmsino::Medium < ActiveRecord::Base$/;"	c
+Cmsino	cmsino/app/models/cmsino/page.rb	/^class Cmsino::Page$/;"	c
+Cmsino	cmsino/app/models/cmsino/post.rb	/^class Cmsino::Post < Cmsino::Content$/;"	c
+Cmsino	cmsino/lib/cmsino.rb	/^module Cmsino$/;"	m
+Cmsino	cmsino/lib/cmsino/conf.rb	/^module Cmsino$/;"	m
+Cmsino	cmsino/lib/cmsino/version.rb	/^module Cmsino$/;"	m
+CmsinoHelper	cmsino/app/helpers/cmsino_helper.rb	/^module CmsinoHelper$/;"	m
+Conf	cmsino/lib/cmsino/conf.rb	/^  class Conf$/;"	c	class:Cmsino
+Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	class:ApplicationCable
+CreateCmsinoContentSchema	cmsino/db/migrate/2013011001_create_cmsino_content_schema.rb	/^class CreateCmsinoContentSchema < ActiveRecord::Migration[5.0]$/;"	c
+CreateCmsinoMediaSchema	cmsino/db/migrate/2015081201_create_cmsino_media_schema.rb	/^class CreateCmsinoMediaSchema < ActiveRecord::Migration[5.0]$/;"	c
+CreateCmsinoMediaUsesSchema	cmsino/db/migrate/2015081205_create_cmsino_media_uses_schema.rb	/^class CreateCmsinoMediaUsesSchema < ActiveRecord::Migration[5.0]$/;"	c
+CreateCmsinoMediaUsesSchema	cmsino/db/migrate/2017061301_create_cmsino_users_schema.rb	/^class CreateCmsinoMediaUsesSchema < ActiveRecord::Migration[5.0]$/;"	c
+CreateCmsinoTermSchema	cmsino/db/migrate/2015081203_create_cmsino_term_schema.rb	/^class CreateCmsinoTermSchema < ActiveRecord::Migration[5.0]$/;"	c
+DatePickerInput	cmsino/app/inputs/date_picker_input.rb	/^class DatePickerInput < SimpleForm::Inputs::Base$/;"	c
+Dummy	cmsino/spec/dummy/config/application.rb	/^module Dummy$/;"	m
+Engine	cmsino/lib/cmsino.rb	/^  class Engine < Rails::Engine$/;"	c	class:Cmsino
+HelpsController	app/controllers/helps_controller.rb	/^class HelpsController < ApplicationController$/;"	c
+HomeController	app/controllers/home_controller.rb	/^class HomeController < ApplicationController$/;"	c
+OmniauthCallbacksController	app/controllers/omniauth_callbacks_controller.rb	/^class OmniauthCallbacksController < Devise::OmniauthCallbacksController  $/;"	c
+User	app/models/user.rb	/^class User < ApplicationRecord$/;"	c
+available_locales	cmsino/app/helpers/cmsino_helper.rb	/^  def available_locales$/;"	f
+cmsino_content_params	cmsino/app/controllers/cmsino/contents_controller.rb	/^  def cmsino_content_params$/;"	f	class:Cmsino
+cmsino_text	cmsino/app/controllers/cmsino/contents_controller.rb	/^  def cmsino_text$/;"	f	class:Cmsino
+content	cmsino/app/models/cmsino/page.rb	/^  def content(content_name, locale)$/;"	f	class:Cmsino
+contents	cmsino/app/models/cmsino/page.rb	/^  def contents$/;"	f	class:Cmsino
+contents_locales_hash	cmsino/app/models/cmsino/page.rb	/^  def contents_locales_hash$/;"	f	class:Cmsino
+create	cmsino/app/controllers/cmsino/contents_controller.rb	/^  def create$/;"	f	class:Cmsino
+create	cmsino/app/controllers/cmsino/media_controller.rb	/^  def create$/;"	f	class:Cmsino
+destroy	cmsino/app/controllers/cmsino/contents_controller.rb	/^  def destroy$/;"	f	class:Cmsino
+destroy	cmsino/app/controllers/cmsino/media_controller.rb	/^  def destroy$/;"	f	class:Cmsino
+destroy	cmsino/app/controllers/cmsino/media_uses_controller.rb	/^  def destroy$/;"	f	class:Cmsino
+developer	app/controllers/omniauth_callbacks_controller.rb	/^  def developer$/;"	f	class:OmniauthCallbacksController
+div_id	cmsino/app/models/cmsino/content.rb	/^  def div_id$/;"	f	class:Cmsino
+down	cmsino/db/migrate/2013011001_create_cmsino_content_schema.rb	/^  def self.down$/;"	F	class:CreateCmsinoContentSchema
+down	cmsino/db/migrate/2015081201_create_cmsino_media_schema.rb	/^  def self.down$/;"	F	class:CreateCmsinoMediaSchema
+down	cmsino/db/migrate/2015081202_add_attachment_attach_to_media.rb	/^  def self.down$/;"	F	class:AddAttachmentAttachToMedia
+down	cmsino/db/migrate/2015081203_create_cmsino_term_schema.rb	/^  def self.down$/;"	F	class:CreateCmsinoTermSchema
+down	cmsino/db/migrate/2015081205_create_cmsino_media_uses_schema.rb	/^  def self.down$/;"	F	class:CreateCmsinoMediaUsesSchema
+down	cmsino/db/migrate/2017061301_create_cmsino_users_schema.rb	/^  def self.down$/;"	F	class:CreateCmsinoMediaUsesSchema
+edit	cmsino/app/controllers/cmsino/contents_controller.rb	/^  def edit$/;"	f	class:Cmsino
+editable_content	cmsino/app/helpers/cmsino_helper.rb	/^  def editable_content(name, page = nil)$/;"	f	class:CmsinoHelper
+editable_image	cmsino/app/helpers/cmsino_helper.rb	/^  def editable_image(name, page = nil)$/;"	f	class:CmsinoHelper
+editable_page	cmsino/app/helpers/cmsino_helper.rb	/^  def editable_page(name, description = nil)$/;"	f	class:CmsinoHelper
+editable_posts	cmsino/app/helpers/cmsino_helper.rb	/^  def editable_posts(name, description = nil)$/;"	f	class:CmsinoHelper
+get_media	cmsino/app/controllers/cmsino/media_controller.rb	/^  def get_media$/;"	f	class:Cmsino
+google_oauth2	app/controllers/omniauth_callbacks_controller.rb	/^  def google_oauth2$/;"	f	class:OmniauthCallbacksController
+icon	cmsino/app/helpers/cmsino_helper.rb	/^  def icon(name, options = { text: "", size: "18" })$/;"	f
+icon	cmsino/app/helpers/cmsino_helper.rb	/^  def icon(name, options = { text: "", size: "18" })$/;"	f	class:CmsinoHelper
+index	app/controllers/helps_controller.rb	/^  def index$/;"	f	class:HelpsController
+index	app/controllers/home_controller.rb	/^  def index$/;"	f	class:HomeController
+index	cmsino/app/controllers/cmsino/media_controller.rb	/^  def index$/;"	f	class:Cmsino
+index	cmsino/app/controllers/cmsino/pages_controller.rb	/^  def index$/;"	f	class:Cmsino
+index	cmsino/app/controllers/cmsino/posts_controller.rb	/^  def index$/;"	f	class:Cmsino
+initialize	app/models/ability.rb	/^  def initialize(user)$/;"	f	class:Ability
+initialize	cmsino/app/models/cmsino/page.rb	/^  def initialize(name, description = nil)$/;"	f	class:Cmsino
+initialize	cmsino/lib/cmsino/conf.rb	/^    def initialize$/;"	f	class:Cmsino.Conf
+input	cmsino/app/inputs/date_picker_input.rb	/^  def input(wrapper_options)$/;"	f	class:DatePickerInput
+medium	cmsino/app/models/cmsino/page.rb	/^  def medium(content_name)$/;"	f	class:Cmsino
+medium_params	cmsino/app/controllers/cmsino/media_controller.rb	/^  def medium_params$/;"	f	class:Cmsino
+new	cmsino/app/controllers/cmsino/contents_controller.rb	/^  def new $/;"	f	class:Cmsino
+new	cmsino/app/controllers/cmsino/media_controller.rb	/^  def new$/;"	f	class:Cmsino
+new	cmsino/app/controllers/cmsino/media_uses_controller.rb	/^  def new$/;"	f	class:Cmsino
+page_description	cmsino/lib/cmsino/conf.rb	/^    def page_description(name)$/;"	f	class:Cmsino.Conf
+set_date	cmsino/app/models/cmsino/post.rb	/^  def set_date$/;"	f	class:Cmsino
+set_locale	app/controllers/application_controller.rb	/^  def set_locale$/;"	f	class:ApplicationController
+setup	cmsino/lib/cmsino/conf.rb	/^    def self.setup(&block)$/;"	F	class:Cmsino.Conf
+to_s	cmsino/app/models/cmsino/content.rb	/^  def to_s$/;"	f	class:Cmsino
+to_s	cmsino/app/models/cmsino/medium.rb	/^  def to_s$/;"	f	class:Cmsino
+ul_media	cmsino/app/helpers/cmsino_helper.rb	/^  def ul_media(obj, content = nil)$/;"	f	class:CmsinoHelper
+umbrella_div_id	cmsino/app/helpers/cmsino_helper.rb	/^  def umbrella_div_id(umbrella)$/;"	f
+up	cmsino/db/migrate/2013011001_create_cmsino_content_schema.rb	/^  def up$/;"	f	class:CreateCmsinoContentSchema
+up	cmsino/db/migrate/2015081201_create_cmsino_media_schema.rb	/^  def up$/;"	f	class:CreateCmsinoMediaSchema
+up	cmsino/db/migrate/2015081202_add_attachment_attach_to_media.rb	/^  def self.up$/;"	F	class:AddAttachmentAttachToMedia
+up	cmsino/db/migrate/2015081203_create_cmsino_term_schema.rb	/^  def up$/;"	f	class:CreateCmsinoTermSchema
+up	cmsino/db/migrate/2015081205_create_cmsino_media_uses_schema.rb	/^  def up$/;"	f	class:CreateCmsinoMediaUsesSchema
+up	cmsino/db/migrate/2017061301_create_cmsino_users_schema.rb	/^  def up$/;"	f	class:CreateCmsinoMediaUsesSchema
+update	cmsino/app/controllers/cmsino/contents_controller.rb	/^  def update$/;"	f	class:Cmsino
+validate_locale	cmsino/app/models/cmsino/page.rb	/^  def validate_locale(locale)$/;"	f	class:Cmsino
