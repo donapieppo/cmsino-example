@@ -1,0 +1,35 @@
+<div id="home_header_container">
+<div id="homeCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#homeCarousel" data-slide-to="1"></li>
+    <li data-target="#homeCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner" role="listbox">
+    <div class="item active" style="background: url(<%= image_url('bg/ice.jpg')%>) center center; background-size: cover;"> &nbsp; </div>
+    <div class="item" style="background: url(<%= image_url('bg/yellow.jpg')%>) center center; background-size: cover;"> &nbsp; </div>
+    <div class="item" style="background: url(<%= image_url('bg/girl.jpg')%>) center center; background-size: cover;"> &nbsp; </div>
+  </div>
+</div><!-- carousel -->
+
+<div class="container" id="home_header">
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#homeCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#homeCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  <h1>
+    <span>Example for Cmsino</span> <br/>
+    <span>Test</span><br/>
+    <div class="home_header_title-date">
+      <span><i class="fa fa-calendar"></i> June 5-8, 2018</span><br/> 
+      <span><i class="fa fa-map-marker"></i> Bologna - Italy</span>
+    </div>
+  </h1>
+</div><!-- home_header --> 
+</div><!-- home_header_container -->

@@ -1,16 +1,27 @@
-<h1>Home Page</h1>
-<p><%= editable_content(:hero) %></p>
-
 <p>
 <%# defined in CmsinoHelper ../gems/cmsino/app/helpers/cmsino_helper.rb %>
 <%= editable_content(:main) %>
 </p>
 
 <div class="row">
-  <div class="span4">
+  <div class="col-md-4 centered">
+    <h2><i class="fa fa-user-secret" aria-hidden="true"></i></h2>
+    <h2>Who</h2>
+    <%= editable_content(:who) %>  
   </div>
-  <div class="span4">
+  <div class="col-md-4 centered">
+    <h2><i class="fa fa-calendar" aria-hidden="true"></i></h2>
+    <h2>When</h2>
+    <%= editable_content(:why) %>  
   </div>
-  <div class="span4">
+  <div class="col-md-4 centered">
+    <h2><i class="fa fa-map-marker" aria-hidden="true"></i></h2>
+    <h2>When</h2>
+    <%= editable_content(:when) %>  
   </div>
 </div>
+
+<div>
+  <%= editable_image(:bg_pedro) %>  
+</div>
+

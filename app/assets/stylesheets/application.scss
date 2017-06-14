@@ -3,7 +3,14 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 @import "cmsino/cmsino";
+@import "home_header";
 
-.container {
-  margin: 20px;
+.centered {
+  margin-left:  auto; 
+  margin-right: auto; 
+  text-align:   center;
+}
+
+h2 .fa {
+  font-size: 200%;
 }
