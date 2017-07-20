@@ -30,10 +30,12 @@ Cmsino	cmsino/app/models/cmsino/page.rb	/^class Cmsino::Page$/;"	c
 Cmsino	cmsino/app/models/cmsino/post.rb	/^class Cmsino::Post < Cmsino::Content$/;"	c
 Cmsino	cmsino/lib/cmsino.rb	/^module Cmsino$/;"	m
 Cmsino	cmsino/lib/cmsino/conf.rb	/^module Cmsino$/;"	m
+Cmsino	cmsino/lib/cmsino/controller_helpers.rb	/^module Cmsino$/;"	m
 Cmsino	cmsino/lib/cmsino/version.rb	/^module Cmsino$/;"	m
 CmsinoHelper	cmsino/app/helpers/cmsino_helper.rb	/^module CmsinoHelper$/;"	m
 Conf	cmsino/lib/cmsino/conf.rb	/^  class Conf$/;"	c	class:Cmsino
 Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	class:ApplicationCable
+ControllerHelpers	cmsino/lib/cmsino/controller_helpers.rb	/^  module ControllerHelpers$/;"	m	class:Cmsino
 CreateCmsinoContentSchema	cmsino/db/migrate/2013011001_create_cmsino_content_schema.rb	/^class CreateCmsinoContentSchema < ActiveRecord::Migration[5.0]$/;"	c
 CreateCmsinoMediaSchema	cmsino/db/migrate/2015081201_create_cmsino_media_schema.rb	/^class CreateCmsinoMediaSchema < ActiveRecord::Migration[5.0]$/;"	c
 CreateCmsinoMediaUsesSchema	cmsino/db/migrate/2015081205_create_cmsino_media_uses_schema.rb	/^class CreateCmsinoMediaUsesSchema < ActiveRecord::Migration[5.0]$/;"	c
@@ -46,8 +48,9 @@ HelpsController	app/controllers/helps_controller.rb	/^class HelpsController < Ap
 HomeController	app/controllers/home_controller.rb	/^class HomeController < ApplicationController$/;"	c
 OmniauthCallbacksController	app/controllers/omniauth_callbacks_controller.rb	/^class OmniauthCallbacksController < Devise::OmniauthCallbacksController  $/;"	c
 User	app/models/user.rb	/^class User < ApplicationRecord$/;"	c
-available_locales	cmsino/app/helpers/cmsino_helper.rb	/^  def available_locales$/;"	f
+available_locales	cmsino/lib/cmsino/controller_helpers.rb	/^    def available_locales$/;"	f	class:Cmsino.ControllerHelpers
 cmsino_content_params	cmsino/app/controllers/cmsino/contents_controller.rb	/^  def cmsino_content_params$/;"	f	class:Cmsino
+cmsino_header	cmsino/app/helpers/cmsino_helper.rb	/^  def cmsino_header$/;"	f
 cmsino_text	cmsino/app/controllers/cmsino/contents_controller.rb	/^  def cmsino_text$/;"	f	class:Cmsino
 content	cmsino/app/models/cmsino/page.rb	/^  def content(content_name, locale)$/;"	f	class:Cmsino
 contents	cmsino/app/models/cmsino/page.rb	/^  def contents$/;"	f	class:Cmsino
@@ -58,6 +61,7 @@ destroy	cmsino/app/controllers/cmsino/contents_controller.rb	/^  def destroy$/;"
 destroy	cmsino/app/controllers/cmsino/media_controller.rb	/^  def destroy$/;"	f	class:Cmsino
 destroy	cmsino/app/controllers/cmsino/media_uses_controller.rb	/^  def destroy$/;"	f	class:Cmsino
 developer	app/controllers/omniauth_callbacks_controller.rb	/^  def developer$/;"	f	class:OmniauthCallbacksController
+display_editable_content	cmsino/app/helpers/cmsino_helper.rb	/^  def display_editable_content(content, edit_url)$/;"	f	class:CmsinoHelper
 div_id	cmsino/app/models/cmsino/content.rb	/^  def div_id$/;"	f	class:Cmsino
 down	cmsino/db/migrate/2013011001_create_cmsino_content_schema.rb	/^  def self.down$/;"	F	class:CreateCmsinoContentSchema
 down	cmsino/db/migrate/2015081201_create_cmsino_media_schema.rb	/^  def self.down$/;"	F	class:CreateCmsinoMediaSchema
@@ -66,11 +70,11 @@ down	cmsino/db/migrate/2015081203_create_cmsino_term_schema.rb	/^  def self.down
 down	cmsino/db/migrate/2015081205_create_cmsino_media_uses_schema.rb	/^  def self.down$/;"	F	class:CreateCmsinoMediaUsesSchema
 down	cmsino/db/migrate/2017061301_create_cmsino_users_schema.rb	/^  def self.down$/;"	F	class:CreateCmsinoMediaUsesSchema
 edit	cmsino/app/controllers/cmsino/contents_controller.rb	/^  def edit$/;"	f	class:Cmsino
+edit	cmsino/app/controllers/cmsino/media_controller.rb	/^  def edit$/;"	f	class:Cmsino
 editable_content	cmsino/app/helpers/cmsino_helper.rb	/^  def editable_content(name, page = nil)$/;"	f	class:CmsinoHelper
-editable_image	cmsino/app/helpers/cmsino_helper.rb	/^  def editable_image(name, page = nil)$/;"	f	class:CmsinoHelper
-editable_page	cmsino/app/helpers/cmsino_helper.rb	/^  def editable_page(name, description = nil)$/;"	f	class:CmsinoHelper
+editable_page	cmsino/lib/cmsino/controller_helpers.rb	/^    def editable_page(name, description = nil)$/;"	f	class:Cmsino.ControllerHelpers
 editable_posts	cmsino/app/helpers/cmsino_helper.rb	/^  def editable_posts(name, description = nil)$/;"	f	class:CmsinoHelper
-get_media	cmsino/app/controllers/cmsino/media_controller.rb	/^  def get_media$/;"	f	class:Cmsino
+get_medium	cmsino/app/controllers/cmsino/media_controller.rb	/^  def get_medium$/;"	f	class:Cmsino
 google_oauth2	app/controllers/omniauth_callbacks_controller.rb	/^  def google_oauth2$/;"	f	class:OmniauthCallbacksController
 icon	cmsino/app/helpers/cmsino_helper.rb	/^  def icon(name, options = { text: "", size: "18" })$/;"	f
 icon	cmsino/app/helpers/cmsino_helper.rb	/^  def icon(name, options = { text: "", size: "18" })$/;"	f	class:CmsinoHelper
@@ -89,11 +93,13 @@ new	cmsino/app/controllers/cmsino/contents_controller.rb	/^  def new $/;"	f	clas
 new	cmsino/app/controllers/cmsino/media_controller.rb	/^  def new$/;"	f	class:Cmsino
 new	cmsino/app/controllers/cmsino/media_uses_controller.rb	/^  def new$/;"	f	class:Cmsino
 page_description	cmsino/lib/cmsino/conf.rb	/^    def page_description(name)$/;"	f	class:Cmsino.Conf
+selectable_image	cmsino/app/helpers/cmsino_helper.rb	/^  def selectable_image(name, style: '', cssclass: '' )$/;"	f	class:CmsinoHelper
 set_date	cmsino/app/models/cmsino/post.rb	/^  def set_date$/;"	f	class:Cmsino
 set_locale	app/controllers/application_controller.rb	/^  def set_locale$/;"	f	class:ApplicationController
 setup	cmsino/lib/cmsino/conf.rb	/^    def self.setup(&block)$/;"	F	class:Cmsino.Conf
 to_s	cmsino/app/models/cmsino/content.rb	/^  def to_s$/;"	f	class:Cmsino
 to_s	cmsino/app/models/cmsino/medium.rb	/^  def to_s$/;"	f	class:Cmsino
+toggle	cmsino/app/controllers/cmsino/media_controller.rb	/^  def toggle$/;"	f	class:Cmsino
 ul_media	cmsino/app/helpers/cmsino_helper.rb	/^  def ul_media(obj, content = nil)$/;"	f	class:CmsinoHelper
 umbrella_div_id	cmsino/app/helpers/cmsino_helper.rb	/^  def umbrella_div_id(umbrella)$/;"	f
 up	cmsino/db/migrate/2013011001_create_cmsino_content_schema.rb	/^  def up$/;"	f	class:CreateCmsinoContentSchema
@@ -103,4 +109,5 @@ up	cmsino/db/migrate/2015081203_create_cmsino_term_schema.rb	/^  def up$/;"	f	cl
 up	cmsino/db/migrate/2015081205_create_cmsino_media_uses_schema.rb	/^  def up$/;"	f	class:CreateCmsinoMediaUsesSchema
 up	cmsino/db/migrate/2017061301_create_cmsino_users_schema.rb	/^  def up$/;"	f	class:CreateCmsinoMediaUsesSchema
 update	cmsino/app/controllers/cmsino/contents_controller.rb	/^  def update$/;"	f	class:Cmsino
+update	cmsino/app/controllers/cmsino/media_controller.rb	/^  def update$/;"	f	class:Cmsino
 validate_locale	cmsino/app/models/cmsino/page.rb	/^  def validate_locale(locale)$/;"	f	class:Cmsino
